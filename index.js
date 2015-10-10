@@ -41,7 +41,7 @@ module.exports = {
 /**
  * ES6
  */
-    "no-var": 1,                     // http://eslint.org/docs/rules/no-var
+    "no-var": 0,                     // http://eslint.org/docs/rules/no-var
     "prefer-const": 1,               // http://eslint.org/docs/rules/prefer-const
 
 /**
@@ -54,7 +54,7 @@ module.exports = {
       "args": "none"
     }],
     "no-use-before-define": 2,       // http://eslint.org/docs/rules/no-use-before-define
-
+    "no-undef": 2,
 /**
  * Possible errors
  */
@@ -128,7 +128,7 @@ module.exports = {
 /**
  * Style
  */
-    "indent": [2, 2, {"SwitchCase": 1}]            // http://eslint.org/docs/rules/indent
+    "indent": [2, 2, {"SwitchCase": 1}],            // http://eslint.org/docs/rules/indent
     "brace-style": [2,               // http://eslint.org/docs/rules/brace-style
       "1tbs", {
       "allowSingleLine": true
@@ -186,7 +186,7 @@ module.exports = {
  */
     "react/display-name": 0,         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/jsx-boolean-value": 2,    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    "jsx-quotes": [2, "single"], // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-quotes.md
+    "jsx-quotes": [2, "prefer-single"], // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-quotes.md
     "react/jsx-no-undef": 2,         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "react/jsx-sort-props": 0,       // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     "react/jsx-sort-prop-types": 0,  // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
