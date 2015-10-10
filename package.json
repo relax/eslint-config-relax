@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-relax",
+  "version": "1.0.0",
+  "description": "eslint config relax",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relax/eslint-config-relax.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "rules",
+    "eslintconfig",
+    "styleguide",
+    "es6",
+    "react"
+  ],
+  "license": "ISC"
+}
