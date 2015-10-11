@@ -209,6 +209,7 @@ module.exports = {
         "groups": {
             lifecycle: [
                 "displayName",
+                "fragments",
                 "propTypes",
                 "contextTypes",
                 "childContextTypes",
