@@ -150,7 +150,7 @@ module.exports = {
         "beforeColon": false,
         "afterColon": true
     }],
-    "new-cap": [1, {                 // http://eslint.org/docs/rules/new-cap
+    "new-cap": [0, {                 // http://eslint.org/docs/rules/new-cap
       "newIsCap": true
     }],
     "no-multiple-empty-lines": [2, { // http://eslint.org/docs/rules/no-multiple-empty-lines
