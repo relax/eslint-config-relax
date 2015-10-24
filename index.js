@@ -210,6 +210,7 @@ module.exports = {
             lifecycle: [
                 "displayName",
                 "fragments",
+                "panelSettings",
                 "propTypes",
                 "contextTypes",
                 "childContextTypes",
