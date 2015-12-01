@@ -217,6 +217,7 @@ module.exports = {
                 "mixins",
                 "statics",
                 "defaultProps",
+                "defaultChildren",
                 "propsSchema",
                 "settings",
                 "style",
