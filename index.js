@@ -165,7 +165,7 @@ module.exports = {
     "no-new-object": 2,              // http://eslint.org/docs/rules/no-new-object
     "no-spaced-func": 2,             // http://eslint.org/docs/rules/no-spaced-func
     "no-trailing-spaces": 2,         // http://eslint.org/docs/rules/no-trailing-spaces
-    "no-extra-parens": [2, "functions"], // http://eslint.org/docs/rules/no-wrap-func
+    "no-extra-parens": [2, "functions"], // http://eslint.org/docs/rules/no-extra-parens
     "no-underscore-dangle": 0,       // http://eslint.org/docs/rules/no-underscore-dangle
     "one-var": [2, "never"],         // http://eslint.org/docs/rules/one-var
     "padded-blocks": [2, "never"],   // http://eslint.org/docs/rules/padded-blocks
@@ -178,8 +178,7 @@ module.exports = {
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "always"], // http://eslint.org/docs/rules/space-before-function-paren
     "space-infix-ops": 1,            // http://eslint.org/docs/rules/space-infix-ops
-    "space-return-throw-case": 2,    // http://eslint.org/docs/rules/space-return-throw-case
-    "spaced-comment": 2,        // http://eslint.org/docs/rules/spaced-line-comment
+    "spaced-comment": 2,        // http://eslint.org/docs/rules/spaced-comment
 
 /**
  * JSX style
